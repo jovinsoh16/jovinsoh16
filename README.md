@@ -19,6 +19,8 @@ I'm Josh, an Undergraduate Computer Science student in Gadjah Mada University!
 - 📊 [Kaggle](https://www.kaggle.com/joshvincentsoh)
 - 🐍 [GitHub](https://github.com/jovinsoh16)
 
+---
+
 ## 🌟 Featured Projects
 
 <div align="center">
@@ -46,5 +48,5 @@ View the project by clicking the image!
 
 </div>
 
-
+---
 
