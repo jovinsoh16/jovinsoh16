@@ -25,6 +25,26 @@ I'm Josh, an Undergraduate Computer Science student in Gadjah Mada University!
 
 <div align="center">
 
+<table>
+<tr>
+<td width="50%" align="center" valign="top">
+
+### 📚 Private Mini Library for Final Project
+A C++ project for managing a mini library system with arrays and structs.
+
+[![🔗 View Project](https://i.postimg.cc/RVDzfrhN/Private_Mini_Library.png)](https://github.com/jovinsoh16/Final-Project-Pemrograman)
+
+View the project by clicking the image!
+
+#### What I learned:
+- Structs and arrays for data management
+- File handling in C++
+- Input validation and user-friendly menus
+- Cross-platform workflow (macOS, Linux, Windows)
+
+</td>
+<td width="50%" align="center" valign="top">
+
 ### 🎮 Higher or Lower Game C++
 A simple guessing game using rand() and modular to generate random numbers!
 
@@ -33,18 +53,16 @@ A simple guessing game using rand() and modular to generate random numbers!
 View the project by clicking the image!
 
 #### What I learned:
-
 - Random number generation and seeding with srand(time(0))
-
 - Control flow using loops (while, do...while) and conditionals
-
 - User input/output handling with cin and cout
-
 - Formatting and alignment with setw() for cleaner UI
-
 - Implementing scoring systems and level progression
-
 - Using chrono and this_thread::sleep_for for countdowns and delays
+
+</td>
+</tr>
+</table>
 
 </div>
 
