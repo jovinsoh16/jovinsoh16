@@ -50,7 +50,7 @@ View the project by clicking the image!
 
 ---
 
-## 🧑‍💻 Activity
+## My GitHub Contribution Breakout 🎮
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="breakout-images/breakout-dark.svg" />
