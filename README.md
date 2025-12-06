@@ -50,6 +50,8 @@ View the project by clicking the image!
 
 ---
 
+## 🧑‍💻 Activity
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="breakout-images/breakout-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="breakout-images/breakout-light.svg" />
