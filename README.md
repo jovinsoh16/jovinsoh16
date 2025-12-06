@@ -32,7 +32,7 @@ I'm Josh, an Undergraduate Computer Science student in Gadjah Mada University!
 ### 📚 Private Mini Library for Final Project
 A C++ project for managing a mini library system with arrays and structs.
 
-[![🔗 View Project](https://i.postimg.cc/RVDzfrhN/Private_Mini_Library.png)](https://github.com/jovinsoh16/Final-Project-Pemrograman)
+[![🔗 View Project](https://i.postimg.cc/k4v2XMnB/Private-Mini-Library.jpg)](https://github.com/jovinsoh16/Final-Project-Pemrograman)
 
 View the project by clicking the image!
 
