@@ -9,6 +9,8 @@ jobs:
   generate-svg:
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    permissions:
+      contents: write  # <-- TAMBAHKAN IZIN INI SUPAYA NGGAK ERROR 403
 
     steps:
       - name: Checkout repository
