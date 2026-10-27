@@ -10,19 +10,16 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     permissions:
-      contents: write  # <-- TAMBAHKAN IZIN INI SUPAYA NGGAK ERROR 403
+      contents: write  # Mencegah Error 403 saat git push
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate Contribution Animation
-        uses: Platane/snk@v3
+      - name: generate SVG
+        uses: cyprieng/github-breakout@v1
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            breakout-images/breakout-dark.svg?palette=github-dark
-            breakout-images/breakout-light.svg?palette=github-light
+          github_username: ${{ github.repository_owner }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
