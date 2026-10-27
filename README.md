@@ -4,7 +4,7 @@
 
 I'm Josh, an Undergraduate Computer Science student in Gadjah Mada University!
 
-- 🔭 I’m currently working on mini-project using SQL programming language in Google Colab for my bootcamp Intelligo.ID!
+- 🔭 I’m currently working on mini-project using Python programming language in Google Colab for my bootcamp Intelligo.ID!
 - 🌱 Currently learning: Data using **SQL** and **C++** for University Project!
 - 🛠 Tools I use: VS Code, XCode, Google Colab, macOS terminal workflows.
 - 🚀 2025 Goals: Master Python and C++
