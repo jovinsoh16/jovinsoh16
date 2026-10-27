@@ -2,13 +2,11 @@ name: generate breakout svg
 
 on:
   schedule:
-    - cron: "0 */24 * * *"   # jalan tiap hari
-  workflow_dispatch:          # bisa dijalankan manual
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
   generate-svg:
-    permissions:
-      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
@@ -16,19 +14,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: generate SVG
-        uses: cyprieng/github-breakout@v1
+      - name: Generate Contribution Animation
+        uses: Platane/snk@v3
         with:
-          github_username: ${{ github.repository_owner }}
-          # opsional:
-          # enable_ghost_bricks: false
-          # paddle_color: "#ff0000"
-          # ball_color: "#00ff00"
-          # bricks_colors: "#ffcc00,#00ccff,#cc00ff"
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            breakout-images/breakout-dark.svg?palette=github-dark
+            breakout-images/breakout-light.svg?palette=github-light
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit & Push SVGs
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update breakout SVGs"
           file_pattern: "breakout-images/*.svg"
-
