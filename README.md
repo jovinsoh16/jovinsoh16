@@ -67,7 +67,7 @@ View the project by clicking the image!
 ### 🧠 Emotion Classification from Public Opinion
 An NLP and deep learning project for classifying public sentiment and emotions in informal Indonesian text using IndoBERT.
 
-[![🔗 View Project](https://placehold.co/600x400/2b2b2b/ffffff?text=Emotion+Classification+NLP)](https://colab.research.google.com/drive/1WPwXb2YKa3IyV0trljxPKjemVKO8TZyK?usp=sharing)
+[![🔗 View Project](https://placehold.co/600x400/2b2b2b/ffffff?text=Emotion+Classification+NLP)]([https://colab.research.google.com/drive/1WPwXb2YKa3IyV0trljxPKjemVKO8TZyK?usp=sharing](https://github.com/jovinsoh16/Emotion-Classification-from-Public-Opinion))
 
 View the project by clicking the image!
 
